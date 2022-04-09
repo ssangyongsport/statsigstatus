@@ -110,7 +110,7 @@ function getStatusText(color) {
   return color == "nodata"
     ? "No Data Available"
     : color == "success"
-    ? "Fully Operational"
+    ? "系統運行中"
     : color == "failure"
     ? "Major Outage"
     : color == "partial"
